@@ -52,4 +52,5 @@ class Simon
     @game_over = false
     @seq = []
   end
+
 end
