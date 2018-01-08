@@ -26,7 +26,6 @@ describe User do
       old_session_token = user.session_token
       user.reset_session_token!
 
-      # Miniscule chance this will fail.
       expect(user.session_token).to_not eq(old_session_token)
     end
 
